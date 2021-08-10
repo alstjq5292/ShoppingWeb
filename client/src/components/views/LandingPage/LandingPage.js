@@ -19,7 +19,7 @@ function LandingPage() {
 
     getProducts(body)
 
-  }, []);
+  }, [])
 
   const getProducts = (body) => {
 
@@ -43,7 +43,7 @@ function LandingPage() {
     let skip = Skip + Limit // 0 + 8
 
     let body = {
-        skip: Skip,
+        skip: skip,
         limit: Limit,
         loadMore: true
     }
