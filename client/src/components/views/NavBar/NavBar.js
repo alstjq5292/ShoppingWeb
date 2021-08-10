@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LeftMenu from './Sections/LeftMenu';
 import RightMenu from './Sections/RightMenu';
-import { Drawer, Button, Icon } from 'antd';
+import { Icon, Drawer, Button } from 'antd';
 import './Sections/Navbar.css';
 
 function NavBar() {

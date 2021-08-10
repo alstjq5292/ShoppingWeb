@@ -24,7 +24,7 @@ function UploadProductPage(props) {
     const [Description, setDescription] = useState("")
     const [Price, setPrice] = useState(0)
     const [Continent, setContinent] = useState(1)
-    const [Image, setImage] = useState([])
+    const [Images, setImages] = useState([])
 
     const titleChangeHandler = (event) => {
         setTitle1(event.currentTarget.value)
@@ -43,7 +43,7 @@ function UploadProductPage(props) {
     }
 
     const updateImages = (newImages) => {
-        setImage(newImages)
+        setImages(newImages)
     }
     
     const submitHandler = (event) => {
@@ -61,7 +61,7 @@ function UploadProductPage(props) {
             title: Title1,
             description: Description,
             price: Price,
-            image: Image,
+            images: Images,
             continents: Continent
         }
 
