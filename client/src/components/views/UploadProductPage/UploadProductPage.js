@@ -9,13 +9,13 @@ const { Title } = Typography;
 const { TextArea } = Input;
 
 const Continents = [
-    {key:1, value:"Africa"},
-    {key:2, value:"Europe"},
-    {key:3, value:"Asia"},
-    {key:4, value:"North America"},
-    {key:5, value:"South America"},
-    {key:6, value:"Australia"},
-    {key:7, value:"Antarctica"}
+    {key:1, value:"Nike"},
+    {key:2, value:"Asics"},
+    {key:3, value:"Masion Margiela"},
+    {key:4, value:"Converse"},
+    {key:5, value:"Vans"},
+    {key:6, value:"New Balance"},
+    {key:7, value:"Adidas"}
 ]
 
 function UploadProductPage(props) {
