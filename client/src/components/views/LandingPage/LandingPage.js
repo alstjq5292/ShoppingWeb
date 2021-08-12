@@ -4,8 +4,9 @@ import { Icon, Col, Card, Row, Button } from "antd";
 import Meta from "antd/lib/card/Meta";
 import ImageSlider from "../../utils/ImageSlider";
 import  CheckBox from './Sections/CheckBox';
+import RadioBox from './Sections/RadioBox';
 import { continents, price } from  './Sections/Datas';
-import RadioBox from "./Sections/RadioBox";
+
 
 function LandingPage() {
   const [Products, setProducts] = useState([]);
@@ -96,10 +97,10 @@ function LandingPage() {
         <div style={{ textAlign: "center" }}>
           <h2>
             Shoes Mall
-            <Icon type="rocket" />
+            <Icon type="shopping" />
           </h2>
         </div>
-
+        <br />
         {/* Filter */}
           <Row gutter={[16, 16]}>
               <Col lg={12} xs={24}>
@@ -111,6 +112,7 @@ function LandingPage() {
                 <RadioBox list={price} handleFilters={filters => handleFilters(filters, "price")}/>
               </Col>
             </Row>
+        <br />
         
 
 
